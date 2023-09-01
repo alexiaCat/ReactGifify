@@ -1,1 +1,1 @@
-# ReactGifify
+# React + Vite + Tailwind
