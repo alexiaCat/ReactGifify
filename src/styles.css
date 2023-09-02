@@ -3,6 +3,6 @@
 @import 'tailwindcss/utilities';
 
 body {
-    @apply font-sans text-white bg-black p-16;
+    @apply font-sans text-white bg-black;
 }
 

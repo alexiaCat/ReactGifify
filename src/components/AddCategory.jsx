@@ -17,12 +17,12 @@ export const AddCategory = ({ onNewCategory }) => {
     }
 
     return (
-        <form onSubmit={onSubmit}>
+        <form className="px-[20px]" onSubmit={onSubmit}>
             <input
                 value={inputValue}
                 onChange={onInputChange}
                 type="text"
-                laceholder="Buscar gifs"
+                placeholder="¿Qué gif estás buscando hoy?"
                 className="bg-white rounded border border-purple-600 text-black text-xl focus:outline-none p-2.5 w-full"
             />
         </form>
